@@ -2,7 +2,7 @@
 """Module for say_my_name method"""
 
 
-def say_my_name(first_namen=, last_name=""):
+def say_my_name(first_name=, last_name=""):
     """Method for printing first and last name.
 
     Args:
@@ -19,6 +19,7 @@ def say_my_name(first_namen=, last_name=""):
         raise TypeError("lat_name must be a string")
 
     print("My name is {:s} {:s}".format(first_name, last_name))
+
 
 if __name__ == "__main__":
     import doctest
