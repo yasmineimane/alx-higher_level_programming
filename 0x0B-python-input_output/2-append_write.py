@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module contains a function that append a text to a file.
+Module append a text to a file.
 """
 
 
