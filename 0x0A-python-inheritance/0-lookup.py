@@ -6,7 +6,7 @@ def lookup(obj):
     '''Looks up object attribute and methods.
     Args:
         obj (object): the object.
-    
+  
     Returns:
         list: the of attributs.
     '''
