@@ -23,7 +23,7 @@ class Rectangle:
     def width(self):
         """
         Property for the width of a rectangle.
-        
+
         Raises:
             TypeError: If width is not an integer.
             valueError: If width is less than 0.
