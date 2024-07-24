@@ -13,4 +13,4 @@ class Rectangle {
     }
   }
 }
-module.esports = Rectangle;
+module.exports = Rectangle;
