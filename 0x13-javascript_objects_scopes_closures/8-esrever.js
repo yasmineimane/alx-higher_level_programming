@@ -1,8 +1,9 @@
 #!/usr/bin/node
 exports.esrever = function (list) {
-  let list2 = [];
-  for (let i = list.length; i >= 0; i--) {
-    for (let j = 0; j < list.length; j++) {
+  const list2 = [];
+const length = list.length;
+  for (let i = length -1; i >= 0; i--) {
+    for (let j = 0; j < length; j++) {
 	list2[j] = list[i];
   }
   return list2;
